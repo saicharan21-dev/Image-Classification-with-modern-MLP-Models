@@ -1,4 +1,5 @@
-#Image Classification with Modern MLP Models#
+# Image Classification with Modern MLP Models
+
 This repository contains an implementation of modern Multi-Layer Perceptron (MLP) models for image classification tasks. The MLP models are designed to classify images into different categories with high accuracy and efficiency.
 
 Dataset
