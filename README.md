@@ -2,16 +2,18 @@
 
 This repository contains an implementation of modern Multi-Layer Perceptron (MLP) models for image classification tasks. The MLP models are designed to classify images into different categories with high accuracy and efficiency.
 
-Dataset
+## Dataset
 The dataset used for training and evaluation is a well-known benchmark dataset for image classification tasks. It consists of a large collection of labeled images representing various classes or categories. The dataset is preprocessed and split into a training set and a test set to assess the performance of the trained models.
 
-Models
+## Models
 The repository includes implementations of the following modern MLP models:
 
 DenseNet: A deep neural network architecture that utilizes densely connected layers to capture rich features and enable effective information flow within the network.
 ResNet: A popular deep neural network architecture that employs residual connections to enable the training of very deep networks while mitigating the vanishing gradient problem.
 EfficientNet: A state-of-the-art neural network architecture that optimizes both model depth and width to achieve high accuracy while maintaining computational efficiency.
-Usage
+
+## Usage
+
 To use this repository, follow these steps:
 
 1.Clone the repository:
@@ -30,10 +32,10 @@ Run the training script for the desired model, specifying the dataset path and o
 5.Evaluate the trained models:
 
 Use the evaluation script to assess the performance of the trained models on the test set.
-Results
+## Results
 After training, the performance of the MLP models on the test set will be displayed, including metrics such as accuracy, precision, recall, and F1 score. Additionally, you can examine the model's predictions on a subset of the test set to gain insights into its classification capabilities.
 
-Further Improvements
+## Further Improvements
 This repository provides a foundation for image classification using modern MLP models. To further enhance the performance, consider experimenting with the following techniques:
 
 Hyperparameter tuning: Explore different combinations of hyperparameters, such as learning rate, batch size, and regularization techniques, to optimize the model's performance.
